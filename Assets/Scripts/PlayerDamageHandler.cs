@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerDamageHandler : MonoBehaviour
 {
-    public int health = 3;
-	public float invulnerablePeriod = 2f;
+    public int health = 5;
+	public float invulnerablePeriod = 1f;
 	float invulnerableTimer = 0;
 	int correctLayer;
 	SpriteRenderer spriteRenderer;

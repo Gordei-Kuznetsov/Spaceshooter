@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: -3836478599909873340}
   - component: {fileID: 7540035817578683059}
   - component: {fileID: -6591809966998844837}
+  - component: {fileID: -1788729163029835331}
+  - component: {fileID: -8844616262279096773}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -128,8 +130,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a12357e0e580b3f46b64fe1d323b43b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
-  invulnerablePeriod: 0
+  health: 5
+  invulnerablePeriod: 2
 --- !u!50 &7540035817578683059
 Rigidbody2D:
   serializedVersion: 4
@@ -194,3 +196,29 @@ PolygonCollider2D:
       - {x: 0.08965934, y: -0.20677969}
       - {x: 0.16247398, y: -0.22702347}
       - {x: 0.15740706, y: -0.117338136}
+--- !u!114 &-1788729163029835331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7540035817578683071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61b57f096de854544aceb419d21b18b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 2044049397545759212, guid: 9169d7c6ff610e54ab4bc866999499ac, type: 3}
+--- !u!114 &-8844616262279096773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7540035817578683071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9522767f56aa3045bdd9f2ccf90d0b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 7540035817578683069}

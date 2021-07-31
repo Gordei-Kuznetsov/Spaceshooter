@@ -136,7 +136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletOffset: {x: 0, y: 0.5, z: 0}
   bulletPrefabricant: {fileID: 8606712477875671681, guid: ff3eae1122602694d9322e3f21ad4c8f, type: 3}
-  fireDelay: 1
+  fireDelay: 1.5
 --- !u!114 &-444841149358681481
 MonoBehaviour:
   m_ObjectHideFlags: 0
